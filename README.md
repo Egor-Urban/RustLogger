@@ -31,23 +31,6 @@ Example log message:
 
 ---
 
-## Usage
-
-Import the logger:
-
-```rust
-use your_logger_module::LOGGER;
-
-Log messages using different levels:
-
-LOGGER.debug("This is a debug message");
-LOGGER.info("Server started successfully");
-LOGGER.warn("Low disk space");
-LOGGER.error("Failed to open file");
-```
-
----
-
 
 The LOGGER is a global static instance, so you don't need to create it manually.
 
